@@ -7,6 +7,3 @@ def test_fizzbuzz():
     assert fizzbuzz(15) == "FizzBuzz"
     assert fizzbuzz(7) == "7"
 
-
-if __name__ == "__main__":
-    test_fizzbuzz()
