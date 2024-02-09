@@ -1,9 +1,11 @@
 def fizzbuzz(number: int):
     """
-    Return A Fizz if the number is divisible by 3
-    Return A Buzz if the number is divisible by 5   
-    Return A FizzBuzz if the number is divisible by 3 and 5
-    Return the number if the number is not divisible by 3 or 5
+    Returns a string based on the number given
+    ---------- IF THE NUMBER IS DIVISIBLE BY 3, 5, OR BOTH ----------
+    ---------- IF THE NUMBER IS DIVISIBLE BY 3 Return "Fizz"----------
+    ---------- IF THE NUMBER IS DIVISIBLE BY 5 Return "Buzz"----------
+    ---------- IF THE NUMBER IS DIVISIBLE BY 3 AND 5 Return "FizzBuzz"----------
+    ---------- IF THE NUMBER IS NOT DIVISIBLE BY 3 OR 5 Return the number itself ----------
     """
     if number % 3 == 0 and number % 5 == 0:
         return "FizzBuzz"
